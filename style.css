@@ -1,0 +1,68 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 10px;
+    background-color: #c0ded9;
+  }
+  
+
+  body {
+    width: 70%;
+    min-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Allan', Helvetica, Arial, sans-serif;
+    color: #3b3a30;
+  }
+  
+  p, input, li {
+    font-family: 'Cardo', Georgia, Times, serif;
+    color: #3b3a30;
+  }
+  
+  h1 {
+    font-size: 10rem;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 8rem;
+    text-align: center;
+  }
+  
+  
+  p, li {
+    font-size: 4rem;
+    line-height: 1.5;
+  }
+  
+  header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  body > * {
+    background-color: #eaece5;
+    padding: 1%;
+  }
+  
+  main, header, nav, article, aside, footer, section {
+    background-color: #eaece5;
+    padding: 1%;
+  }
+  
+  h1 {
+    flex: 5;
+    text-transform: uppercase;
+  }
+  
+
+  
+
